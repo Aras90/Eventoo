@@ -10,8 +10,8 @@
     </head>
 
     <body>
-        <b>Zwolej to pipka</b>
-        <h2>DUPA wołowa i huja nam idzie ten projekt</h2>
+        <b>KAmil mistrz i ciotka</b>
+        <h1>Masakra, próba</h1>
        
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
