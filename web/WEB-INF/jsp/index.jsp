@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <b>CISNIEMY KURWA!!!</b>
+        <b>AMATORZY PIEPRZENI</b>
         <p>Zwolej to mistrz Zwolej to mistrz.</p>
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
