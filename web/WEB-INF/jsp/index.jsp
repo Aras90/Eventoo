@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <b>omg..</b>
+        <b>oasdasd</b>
         <p>Zwolej to mistrz</p>
         <p>(.Y.)</p>
         <p><i>To display a different welcome page for this project, modify</i>
