@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <b>KAmil to pipka</b>
+        <b>omg..</b>
         <p>kiedy oni sie czegos naucza wreszcie?</p>
         <p>(.Y.)</p>
         <p><i>To display a different welcome page for this project, modify</i>
