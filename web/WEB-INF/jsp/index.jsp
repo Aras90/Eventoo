@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <b>KAmil to mistrz</b>
+        <b>KAmil to mistrz, mular nir wiem czy Ci się uda</b>
         <p>kiedy oni sie czegos naucza wreszcie?</p>
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
