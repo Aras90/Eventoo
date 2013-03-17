@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <b>ja jebie ale zwolej to MISTRZ KUTACHU</b>
+        <b>KAmil to mistrz</b>
         <p>kiedy oni sie czegos naucza wreszcie?</p>
         <p><i>To display a different welcome page for this project, modify</i>
             <tt>index.jsp</tt> <i>, or create your own welcome page then change
