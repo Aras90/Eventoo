@@ -3,12 +3,28 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome to Spring Web MVC project</title>
     </head>
 
     <body>
+       
+      <div id="fb-root"></div>
+      <script src="http://connect.facebook.net/en_US/all.js"></script>
+      <script>
+         FB.init({ 
+            appId:'487331951334796', cookie:true, 
+            status:true, xfbml:true 
+         });
+      </script>
+      <fb:login-button>Login with Facebook</fb:login-button>
+
+  
+       
+     
+        
         <b>CISNIEMY KURWA!!!</b>
         <p>Hello! This is the default welcome page for a Spring Web MVC project.</p>
         <p><i>To display a different welcome page for this project, modify</i>
