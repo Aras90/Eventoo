@@ -13,6 +13,9 @@
         <h1>Eventoo</h1>
         <b>Witajcie na naszej stronie Eventoo, właśnie tutaj możecie publikować sweet focie ze swoich imprez...</b>
         <br> <button>PUBLIKUJ</button>
+        <br> <button>KOMENTUJ</button>
+        <br> <button>LIKE!</button>
+        <br> <button>NAPIJ SIĘ Z NAMI</button>
     
     </body>
 </html>
