@@ -16,6 +16,8 @@
         <br> <button>KOMENTUJ</button>
         <br> <button>LIKE!</button>
         <br> <button>NAPIJ SIĘ Z NAMI</button>
+        
+        <br><br><br><br><br>Administrator Arkadiusz Szymański
     
     </body>
 </html>
