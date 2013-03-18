@@ -2,20 +2,53 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
     "http://www.w3.org/TR/html4/loose.dtd">
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Spring Web MVC project</title>
+        <title>Eventoo-szykuj się na wielką imprezę</title>
+        
+       
     </head>
 
     <body>
-        <b>KAmil mistrz i ciotka</b>
+        
+      
+        <h1>Eventoo</h1>
+        <a href="http://facebook.com">zaloguj</a>
+        <h2 style="font-size: 100px; text-align: center">DO ROBOTY!</h2>
+        
+        Baza: https://sql.uniainteractive.home.pl/sql/ <br>
+        login: uniainteractive107 <br>
+        hasło: Makarena444 <br> 
        
-        <p><i>To display a different welcome page for this project, modify</i>
-            <tt>index.jsp</tt> <i>, or create your own welcome page then change
-                the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
-                welcome page and also update the welcome-file setting in</i>
-            <tt>web.xml</tt>.</p>
+        <div id="fb-root">
+             <button id="fb-login">Zaloguj się do mojej aplikacji!</button>  
+        </div>
+        <script src="http://connect.facebook.net/pl_PL/all.js"></script>
+        <script>
+            FB.init({
+               appId  : '487331951334796',
+               status : true, 
+               cookie : true, 
+               xfbml  : true  
+             });
+
+            document.getElementById('fb-login').onclick = function() {
+                FB.login(function(response) {});
+            };
+         
+        </script>
+       
+      
+       
+        <a href='friendsInfo.html'>Jakich masz znajomych?</a>
+        
+        
+        
+        
+        
     </body>
 </html>
