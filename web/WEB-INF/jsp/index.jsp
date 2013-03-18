@@ -25,9 +25,9 @@
         hasło: Makarena444 <br> 
        
         <div id="fb-root">
-             <button id="fb-login">Zaloguj się do mojej aplikacji!</button>
-             <button id="fb-logout">Wyloguj się z mojej aplikacji!</button>
+            <!-- <button id="fb-login">Zaloguj się do mojej aplikacji!</button>  -->
         </div>
+         <fb:login-button>Zaloguj do fb</fb:login-button>
         <script src="http://connect.facebook.net/pl_PL/all.js"></script>
         <script>
             FB.init({
@@ -38,11 +38,14 @@
              });
 
             document.getElementById('fb-login').onclick = function() {
-                FB.login(function(response) {});
-            }; 
-            
-            document.getElementById('fb-logout').onclick = function() {
-                FB.logout(function(response) {});
+                FB.login(function(response) {
+                    if (response.authResponse) {
+                      
+                        console.log("asdasd");
+                    } else {
+                        // cancelled
+                    }
+                });
             };
          
         </script>
