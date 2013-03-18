@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <h1>Eventoo</h1>
+        <h1>Eventoo zzzzzzzzzzzzzz</h1>
         <b>Witajcie na naszej stronie Eventoo, właśnie tutaj możecie publikować sweet focie ze swoich imprez...</b>
         <br> <button>PUBLIKUJ</button>
         <br> <button>KOMENTUJ</button>
