@@ -10,14 +10,7 @@
     </head>
 
     <body>
-        <h1>Eventoo zzzzzzzzzzzzzz</h1>
-        <b>Witajcie na naszej stronie Eventoo, właśnie tutaj możecie publikować sweet focie ze swoich imprez...</b>
-        <br> <button>PUBLIKUJ</button>
-        <br> <button>KOMENTUJ</button>
-        <br> <button>LIKE!</button>
-        <br> <button>NAPIJ SIĘ Z NAMI</button>
-        
-        <br><br><br><br><br>Administrator Arkadiusz Szymański
-    
+        <h1>Eventoo</h1>
+        <a href="http://facebook.com">zaloguj</a>
     </body>
 </html>
