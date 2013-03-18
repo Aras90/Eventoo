@@ -12,7 +12,7 @@
     <body>
         <h1>Eventoo</h1>
         <a href="http://facebook.com">zaloguj</a>
-        <h2 style="font-size: 30px">DO ROBOTY!</h2>
+        <h2 style="font-size: 100px; text-align: center">DO ROBOTY!</h2>
         
         
     </body>
