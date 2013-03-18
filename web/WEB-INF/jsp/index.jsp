@@ -36,6 +36,10 @@
                cookie : true, 
                xfbml  : true  
              });
+             
+             FB.Event.subscribe('auth.login', function(response) {
+                window.location = "http://localhost:8080/Eventoo/logged.jsp";
+            });
 
             document.getElementById('fb-login').onclick = function() {
                 FB.login(function(response) {
