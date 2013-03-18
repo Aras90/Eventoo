@@ -9,7 +9,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Eventoo-szykuj się na wielką imprezę</title>
-        
+        Baza bedzie na localu(poki co...) wiec instalujcie mysql i robcie usera 'root' i haslo 'sql' do niego.Zeby kazdy mial to samo.
        
     </head>
 
