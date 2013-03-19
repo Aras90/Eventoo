@@ -29,7 +29,7 @@ servlet but should be the only JSP outside of WEB-INF.
                         top.location.href="http://localhost:8080/Eventoo/logged.jsp";
                     }
                      
-             });         
+             });        
                      
              FB.getLoginStatus(function(response) {
                 if (response.status === 'connected') {
