@@ -24,10 +24,16 @@
         login: uniainteractive107 <br>
         hasło: Makarena444 <br> 
        
+        
+        Login/logout + przekierowanie zrobione
+        
+        
         <div id="fb-root">
             <!-- <button id="fb-login">Zaloguj się do mojej aplikacji!</button>  -->
         </div>
          <fb:login-button>Zaloguj do fb</fb:login-button>
+         
+         
         <script src="http://connect.facebook.net/pl_PL/all.js"></script>
         <script>
             FB.init({
@@ -37,20 +43,17 @@
                xfbml  : true  
              });
              
-             FB.Event.subscribe('auth.login', function(response) {
-                window.location = "http://localhost:8080/Eventoo/logged.jsp";
+             // FB.Event.subscribe('auth.login', function(response) {   
+            //    window.location = "http://localhost:8080/Eventoo/logged.jsp";
+           // }); 
+           
+           FB.Event.subscribe('auth.authResponseChange', function(response) {
+                if (response.status === 'connected') {
+                     window.top.location = 'http://localhost:8080/Eventoo/logged.jsp';
+                }
             });
 
-            document.getElementById('fb-login').onclick = function() {
-                FB.login(function(response) {
-                    if (response.authResponse) {
-                      
-                        console.log("asdasd");
-                    } else {
-                        // cancelled
-                    }
-                });
-            };
+         
          
         </script>
        
