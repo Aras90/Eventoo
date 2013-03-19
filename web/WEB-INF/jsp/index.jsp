@@ -58,8 +58,6 @@
         </script>
        
       
-       
-        <a href='friendsInfo.html'>Jakich masz znajomych?</a>
         
         
         
