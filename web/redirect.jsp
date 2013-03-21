@@ -15,21 +15,7 @@ servlet but should be the only JSP outside of WEB-INF.
                xfbml  : true  
              });
              
-            <%--  FB.Event.subscribe('auth.login', function(response) {   
-                window.location = "http://localhost:8080/Eventoo/logged.jsp";
-            }); 
-                 --%>
-            FB.getLoginStatus(function(response){
-                    if(response.session){
-                         
-                         top.location.href="http://localhost:8080/Eventoo/index.htm";
-                    }
-                    else{
-                        // top.location.href="https://www.facebook.com/dialog/oauth?client_id=APP_ID&redirect_uri=redirect_url&scope=email,read_stream";
-                        top.location.href="http://localhost:8080/Eventoo/logged.jsp";
-                    }
-                     
-             });         
+                  
                      
              FB.getLoginStatus(function(response) {
                 if (response.status === 'connected') {
@@ -39,18 +25,19 @@ servlet but should be the only JSP outside of WEB-INF.
                   // request, and the time the access token 
                   // and signed request each expire
                   
-                    top.location.href="http://localhost:8080/Eventoo/logged.jsp";
+                    //top.location.href="logged.jsp";
+                    top.location.href="index.htm";
                     
                   var uid = response.authResponse.userID;
                   var accessToken = response.authResponse.accessToken;
                 } else if (response.status === 'not_authorized') {
                   // the user is logged in to Facebook, 
                   // but has not authenticated your app
-                    top.location.href="http://localhost:8080/Eventoo/notAutorized.jsp";
+                    top.location.href="notAutorized.jsp";
                 } else {
                   // the user isn't logged in to Facebook.
                   
-                     top.location.href="http://localhost:8080/Eventoo/index.htm";
+                     top.location.href="index.htm";
                 }
              });
            
