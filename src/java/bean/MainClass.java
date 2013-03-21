@@ -21,7 +21,7 @@ public class MainClass {
     
     //niestety pojebany mysql zmienil nazwy tabel zeby zaczynaly sie z malych liter jak cos.
     public List getUserData(){
-        Query query = session.createSQLQuery("Select * from User").addEntity(User.class);
+        Query query = session.createSQLQuery("Select * from user").addEntity(User.class);
         return query.list(); 
     }
     public List getRatingData(){
