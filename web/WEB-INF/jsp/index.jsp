@@ -13,7 +13,7 @@ List<User> listaUsers = mc.getUserData();
 List<Rating> listaRatings = mc.getRatingData();
 List<Picture> listaPictures = mc.getPictureData();
 List<Comment> listaComments = mc.getCommentData();
-out.println("Userzy:\n");
+out.println("Userzy'" + listaUsers.size() + "':\n");
 for(int i=0;i<listaUsers.size();i++){
 out.println(listaUsers.get(i).getId_User() + " " + listaUsers.get(i).getPassword() + " " + listaUsers.get(i).getDescription()+"\n");
 }
