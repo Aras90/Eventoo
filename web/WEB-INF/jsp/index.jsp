@@ -163,6 +163,7 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                         
                         na samej gorze na pasku jest napoisane cos tam w stylu Userzy'liczba' Comments'liczba' ... to te liczby to ilosc rekordow w danej tabelce.
                         w pliku index.jsp na samej gorze macie przyklad sciagniecia danych z bazy i uzywania ich jako lista obiektow. Czyli tworzenie klasy MainClass ktora ma w sobie zapytania sciagajce wszystkie dane z danych tabel.
+                        w razie pytan piszcie gg(Zwolej).
                         <h1>Eventoo</h1>
                         <a href="http://facebook.com">zaloguj</a>
                         <h2 style="font-size: 100px; text-align: center">DO ROBOTY!</h2>
