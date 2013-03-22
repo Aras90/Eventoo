@@ -14,15 +14,25 @@ public class Event {
      private String EditedAt;
      private String Name;
      private long Id_User;
+     private long Id_Album;
     public Event() {
     }
 
-    public Event(long Id_Event, String CreatedAt, String EditedAt, String Name, long Id_User) {
+    public long getId_Album() {
+        return Id_Album;
+    }
+
+    public void setId_Album(long Id_Album) {
+        this.Id_Album = Id_Album;
+    }
+
+    public Event(long Id_Event, String CreatedAt, String EditedAt, String Name, long Id_User, long Id_Album) {
         this.Id_Event = Id_Event;
         this.CreatedAt = CreatedAt;
         this.EditedAt = EditedAt;
         this.Name = Name;
         this.Id_User = Id_User;
+        this.Id_Album = Id_Album;
     }
 
     public long getId_User() {

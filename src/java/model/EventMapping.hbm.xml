@@ -6,7 +6,7 @@
       <property column="CreatedAt" name ="CreatedAt" type = "string"></property>
       <property column="EditedAt" name ="EditedAt" type = "string"></property>
       <property column="Name" name ="Name" type = "string"></property>
-      <many-to-one name="User" column="User" class="model.User" not-null="true" foreign-key="fk_event_user" ></many-to-one>
-      <many-to-one name="Album" class="model.Album" column="Album" cascade="all" unique="true" ></many-to-one>
+      <many-to-one name="Id_User" column="Id_User" class="model.User" not-null="true" foreign-key="fk_event_user" ></many-to-one>
+      <many-to-one name="Id_Album" column="Id_Album" class="model.Album" cascade="all" unique="true" ></many-to-one>
   </class>
 </hibernate-mapping>
