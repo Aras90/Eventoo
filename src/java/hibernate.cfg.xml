@@ -8,6 +8,7 @@
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">sql</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
     <mapping resource="model/UserMapping.hbm.xml"/>
     <mapping resource="model/RatingMapping.hbm.xml"/>
     <mapping resource="model/PictureMapping.hbm.xml"/>
