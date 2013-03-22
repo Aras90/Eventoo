@@ -32,7 +32,7 @@ public class User {
         return Id_User;
     }
 
-    public void setId_User(int Id_User) {
+    public void setId_User(long Id_User) {
         this.Id_User = Id_User;
     }
 
