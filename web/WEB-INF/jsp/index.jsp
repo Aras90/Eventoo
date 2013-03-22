@@ -64,10 +64,8 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
             });
                      
             function ustawPrzycisk() {
-                var imie;
-               // FB.api('/me', function(response) {
-                 //               imie = response.name;
-                 ///           });
+                
+                
                  FB.getLoginStatus(function(response) {
                         if (response.status === 'connected') {
                           // the user is logged in and has authenticated your
@@ -77,10 +75,14 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                           // and signed request each expire
 
 
-                           
+                          
                           document.getElementById("fb-login").style.display = "none";
-                        
-                          document.getElementById("fb-logout").style.display = "inline";
+                          var x = document.getElementById("fb-logout");
+                             FB.api('/me', function(response) {
+                                x.innerHTML =  response.name + " <button onclick=\"fbLogout();\" > wyloguj sie</button>";
+                            });
+                          
+                          document.getElementById("fb-logout").style.display = "list-item";
                          
                            
                          
@@ -91,11 +93,11 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                           // the user isn't logged in to Facebook.
                           // alert('y');
                            document.getElementById("fb-logout").style.display = "none";
-                           var x = document.getElementById("fb-login");
-                           x.style.display = "inline";
+                           var x = document.getElementById("fb-login").style.display = "inline";
+                           
                            
                             
-                           // if(!imie.equals(null)) x.innerHTML = imie;
+                            
                         }
                    });      
             };
