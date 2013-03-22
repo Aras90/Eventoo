@@ -47,7 +47,6 @@ public class MainClass {
         Query query = session.createSQLQuery("Select * from comment").addEntity(Comment.class); 
         return query.list();
     }
-    
     public List getAlbumData(){
         Query query = session.createSQLQuery("Select * from album").addEntity(Album.class); 
         return query.list();
