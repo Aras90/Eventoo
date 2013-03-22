@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="model.Comment" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table ="Comment">
+      <id column="Id_Comment" name="Id_Comment" type = "integer"></id>
+      <property column="Description" name ="Description" type = "string"></property>
+      <property column="CreatedAt" name ="CreatedAt" type = "string"></property>
+  </class>
+</hibernate-mapping>
