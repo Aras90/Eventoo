@@ -12,7 +12,8 @@
        
         <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="style.css" />
-        
+         <script src="http://connect.facebook.net/pl_PL/all.js"></script>
+        <script src="js.js"></script>
         
     </head>
 
@@ -20,33 +21,7 @@
       
         <div id="bg">
             <div id="outer">
-		<div id="header">
-                    <div id="logo">
-			<h1>
-                            <a href="#">Eventoo</a>
-                        </h1>
-                    </div>
-                    <div id="nav">
-			<ul>
-                             <li class="first active">
-				<a href="index.htm">Home</a>
-                            </li>
-                            <li>
-				<a href="mojeAlbumy.jsp">Moje albumy</a>
-                            </li>
-                            <li>
-				<a href="mojeImprezy.jsp">Moje imprezy</a>
-                            </li>
-                            <li>
-				<a href="poczekalnia.jsp">Poczekalnia</a>
-                            </li>
-                            <li class="last">
-				<a href="kalendarz.jsp">Kalendarz</a>
-                            </li>
-			</ul>
-			<br class="clear" />
-                    </div>
-		</div>
+		<%@ include file="header.html" %>
 		<div id="main">
                         
                     kalendarz
