@@ -5,7 +5,7 @@
       <id column="Id_Comment" name="Id_Comment" type = "integer"></id>
       <property column="Description" name ="Description" type = "string"></property>
       <property column="CreatedAt" name ="CreatedAt" type = "string"></property>
-       <many-to-one name="User" column="User" class="model.User" foreign-key="fk_comment_user" ></many-to-one>
-        <many-to-one name="Picture" column="Picture" class="model.Picture" foreign-key="fk_comment_picture" ></many-to-one>
+       <many-to-one name="Id_User" column="Id_User" class="model.User" foreign-key="fk_comment_user" ></many-to-one>
+        <many-to-one name="Id_Picture" column="Id_Picture" class="model.Picture" foreign-key="fk_comment_picture" ></many-to-one>
   </class>
 </hibernate-mapping>
