@@ -149,7 +149,8 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                             
                             <li id="fb-logout" style="display: none">
                             
-                                <button onclick="fbLogout();" > Wyloguj sie</button>
+                                <!--button onclick="fbLogout();" >Wyloguj sie</button-->
+                                <a onclick="fbLogout();">Wyloguj sie</a>
                             </li>
 			</ul>
 			<br class="clear" />
