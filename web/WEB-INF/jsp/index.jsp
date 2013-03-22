@@ -79,7 +79,7 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                           document.getElementById("fb-login").style.display = "none";
                           var x = document.getElementById("fb-logout");
                              FB.api('/me', function(response) {
-                                x.innerHTML =  response.name + " <button onclick=\"fbLogout();\" > wyloguj sie</button>";
+                                x.innerHTML =  response.name + " <a onclick=\"fbLogout();\" > wyloguj sie</a>";
                             });
                           
                           document.getElementById("fb-logout").style.display = "list-item";
@@ -152,7 +152,7 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                             <li id="fb-logout" style="display: none">
                             
                                 <!--button onclick="fbLogout();" >Wyloguj sie</button-->
-                                <a onclick="fbLogout();">Wyloguj sie</a>
+                                <a onclick="fbLogout();">wyloguj sie</a>
                             </li>
 			</ul>
 			<br class="clear" />
