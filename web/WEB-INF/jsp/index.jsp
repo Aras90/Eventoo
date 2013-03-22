@@ -105,10 +105,7 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                         login: uniainteractive107 <br>
                         hasło: Makarena444 <br> 
 
-                        Login/logout + przekierowanie zrobione<br>
-
-                        Dodalem przykladowy wyglad stronki, aby latwiej bylo funkcjonalnosci robic.<br>   
-                        Przydaloby sie dorobic include naglowka i plikow js, aby kazda strona nie miala powtarzajacego sie kodu oraz dopracowac funkcje zmiany przyciskow. Bede wieczorem. Aras
+                                         
                         <div id="fb-root">
                             <!-- <button id="fb-login">Zaloguj się do mojej aplikacji!</button>  -->
                         </div>
