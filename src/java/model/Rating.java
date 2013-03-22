@@ -9,24 +9,47 @@ package model;
  * @author Baro
  */
 public class Rating {
-     private int Id_Rating;
+     private long Id_Rating;
      private String CreatedAt;
      private int Value;
-
+     private long Id_Picture;
+     private long Id_User;
+     
+     
     public Rating() {
     }
 
-    public Rating(int Id_Rating, String CreatedAt, int Value) {
+    public Rating(long Id_Rating, String CreatedAt, int Value, long Id_Picture, long Id_User) {
         this.Id_Rating = Id_Rating;
         this.CreatedAt = CreatedAt;
         this.Value = Value;
+        this.Id_Picture = Id_Picture;
+        this.Id_User = Id_User;
     }
 
-    public int getId_Rating() {
+    public long getId_Picture() {
+        return Id_Picture;
+    }
+
+    public void setId_Picture(long Id_Picture) {
+        this.Id_Picture = Id_Picture;
+    }
+
+    public long getId_User() {
+        return Id_User;
+    }
+
+    public void setId_User(long Id_User) {
+        this.Id_User = Id_User;
+    }
+
+   
+
+    public long getId_Rating() {
         return Id_Rating;
     }
 
-    public void setId_Rating(int Id_Rating) {
+    public void setId_Rating(long Id_Rating) {
         this.Id_Rating = Id_Rating;
     }
 

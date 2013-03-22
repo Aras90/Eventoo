@@ -9,7 +9,7 @@ package model;
  * @author Baro
  */
 public class User {
-    private int Id_User;
+    private long Id_User;
     private String Description;
     private String Password;
     private String CreatedAt; //timestamp?
@@ -19,7 +19,7 @@ public class User {
     public User() {
     }
 
-    public User(int Id_User, String Description, String Password, String CreatedAt, String EditetAt, String Email) {
+    public User(long Id_User, String Description, String Password, String CreatedAt, String EditetAt, String Email) {
         this.Id_User = Id_User;
         this.Description = Description;
         this.Password = Password;
@@ -28,7 +28,7 @@ public class User {
         this.Email = Email;
     }
 
-    public int getId_User() {
+    public long getId_User() {
         return Id_User;
     }
 

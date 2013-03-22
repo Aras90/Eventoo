@@ -9,26 +9,37 @@ package model;
  * @author Baro
  */
 public class Event {
-     private int Id_Event;
+     private long Id_Event;
      private String CreatedAt;
      private String EditedAt;
      private String Name;
-
+     private long Id_User;
     public Event() {
     }
 
-    public Event(int Id_Event, String CreatedAt, String EditedAt, String Name) {
+    public Event(long Id_Event, String CreatedAt, String EditedAt, String Name, long Id_User) {
         this.Id_Event = Id_Event;
         this.CreatedAt = CreatedAt;
         this.EditedAt = EditedAt;
         this.Name = Name;
+        this.Id_User = Id_User;
     }
 
-    public int getId_Event() {
+    public long getId_User() {
+        return Id_User;
+    }
+
+    public void setId_User(long Id_User) {
+        this.Id_User = Id_User;
+    }
+
+    
+
+    public long getId_Event() {
         return Id_Event;
     }
 
-    public void setId_Event(int Id_Event) {
+    public void setId_Event(long Id_Event) {
         this.Id_Event = Id_Event;
     }
 

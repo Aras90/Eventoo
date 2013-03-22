@@ -9,22 +9,33 @@ package model;
  * @author Baro
  */
 public class Album {
-     private int Id_Album;
+     private long Id_Album;
      private String CreatedAt;
-
-    public Album() {
+     private long Id_Event;
+    
+     public Album() {
     }
 
-    public Album(int Id_Album, String CreatedAt) {
+    public Album(long Id_Album, String CreatedAt, long Id_Event) {
         this.Id_Album = Id_Album;
         this.CreatedAt = CreatedAt;
+        this.Id_Event = Id_Event;
     }
 
-    public int getId_Album() {
+    
+    public long getId_Event() {
+        return Id_Event;
+    }
+
+    public void setId_Event(long Id_Event) {
+        this.Id_Event = Id_Event;
+    }
+
+    public long getId_Album() {
         return Id_Album;
     }
 
-    public void setId_Album(int Id_Album) {
+    public void setId_Album(long Id_Album) {
         this.Id_Album = Id_Album;
     }
 
