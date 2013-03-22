@@ -4,6 +4,6 @@
   <class dynamic-insert="false" dynamic-update="false" mutable="true" name="model.Album" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table ="Album">
       <id column="Id_Album" name="Id_Album" type = "integer"></id>
       <property column="CreatedAt" name ="CreatedAt" type = "string"></property>
-      <many-to-one name="Id_Event" column="Id_Event" class="model.Event"  cascade="all" unique="true" />
+      <many-to-one name="Id_Event" column="Id_Event" class="model.Event"  cascade="all" unique="true" foreign-key="fk_album_event" />
   </class>
 </hibernate-mapping>
