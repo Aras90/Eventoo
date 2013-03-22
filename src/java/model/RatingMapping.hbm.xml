@@ -5,5 +5,7 @@
       <id column="Id_Rating" name="Id_Rating" type = "integer"></id>
       <property column="CreatedAt" name ="CreatedAt" type = "string"></property>
       <property column="Value" name ="Value" type = "integer"></property>
+      <many-to-one name="User" column="User" class="model.User" foreign-key="fk_rating_user" ></many-to-one>
+      <many-to-one name="Picture" column="Picture" class="model.Picture" foreign-key="fk_rating_picture" ></many-to-one>
   </class>
 </hibernate-mapping>
