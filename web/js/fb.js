@@ -66,8 +66,7 @@ window.onload = ustawPrzycisk;
             function fbLogout() {
                 FB.logout(function (response) {
                     //Do what ever you want here when logged out like reloading the page
-                    alert('wylogowano');
-                     window.location = "index.htm";
+                     window.location = "index.jsp";
                 });
              
             };   

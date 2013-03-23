@@ -6,6 +6,7 @@ This JSP is here to provide a redirect to the dispatcher
 servlet but should be the only JSP outside of WEB-INF.
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
  <script src="http://connect.facebook.net/pl_PL/all.js"></script>
         <script>
             FB.init({
@@ -26,7 +27,7 @@ servlet but should be the only JSP outside of WEB-INF.
                   // and signed request each expire
                   
                     //top.location.href="logged.jsp";
-                    top.location.href="index.htm";
+                    top.location.href="index.jsp";
                     
                   var uid = response.authResponse.userID;
                   var accessToken = response.authResponse.accessToken;
@@ -37,7 +38,7 @@ servlet but should be the only JSP outside of WEB-INF.
                 } else {
                   // the user isn't logged in to Facebook.
                   
-                     top.location.href="index.htm";
+                     top.location.href="index.jsp";
                 }
              });
            
