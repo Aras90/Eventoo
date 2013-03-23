@@ -4,4 +4,4 @@
                         
                     Moje albumy
 		</div>
-
+                <%@ include file="footer.jsp" %>

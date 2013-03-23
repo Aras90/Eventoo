@@ -3,3 +3,4 @@
                         
                     poczekalnia
 		</div>
+                <%@ include file="footer.jsp" %>

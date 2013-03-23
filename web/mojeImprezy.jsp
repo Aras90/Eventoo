@@ -3,3 +3,4 @@
                         
                     moje imprezy
 		</div>
+                <%@ include file="footer.jsp" %>

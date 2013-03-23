@@ -56,4 +56,4 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
                          
          
 		</div>
-                
+                <%@ include file="footer.jsp" %>

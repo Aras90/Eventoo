@@ -4,3 +4,4 @@
                         
                     kalendarz
 		</div>
+                <%@ include file="footer.jsp" %>
