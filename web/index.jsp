@@ -19,7 +19,7 @@ List<Comment> listaComments = mc.getCommentData();
 
 out.println("zdjecia dziwne '" + listaPictures2.size() + "':\n");
 for(int i=0;i<listaPictures2.size();i++){
-out.println(listaPictures2.get(i).getName() + " " + listaPictures2.get(i).getId_User());
+out.println(listaPictures2.get(i).getName() + " " + listaPictures2.get(i).getId_User().getPassword());
 }
 %>
 <!out.println("Userzy'" + listaUsers.size() + "':\n");
