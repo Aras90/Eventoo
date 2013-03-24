@@ -19,7 +19,11 @@ public class MainClass {
     private Session session = sessionFactory.openSession();
     
     
-    //niestety pojebany mysql zmienil nazwy tabel zeby zaczynaly sie z malych liter jak cos.
+    public List getUserPicturesData(long id){
+        Query query = session.createSQLQuery("Select * from picture where Id_User = " + id).addEntity(Picture.class); 
+        return query.list();
+    }
+    
     public List getUserData(){
         Query query = session.createSQLQuery("Select * from user").addEntity(User.class);
         return query.list(); 
