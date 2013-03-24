@@ -41,14 +41,14 @@ out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).ge
 
 
 		<div id="main">
-                    <div style="font-size: 20px; color: white; margin-bottom:20px;">Uporządkowałem trochę kod. Poprawiłem header, dodałem footer, zmieniłem pozycję loginu do fejsa, żeby nie skakało. No i teraz strona główna to index.jsp (znajduje się w tym samym folderze, co reszta podstron).
-                        <div style="text-align: right">Mular</div></div>
-                        Dobra teraz dodawanie do bazy powinno smigac dobrze, dodalem wam przyklad wyciagniecia z bazy zdjec wykonanych tylko przez uzytkownika numer 1.
+                    <div style="font-size: 20px; color: white; margin-bottom:20px;">Dobra teraz dodawanie do bazy powinno smigac dobrze, dodalem wam przyklad wyciagniecia z bazy zdjec wykonanych tylko przez uzytkownika numer 1.
                         wprowadzanie dancyh do bazy(kolejnosc)
                         1user
                         2event
                         3picture
                         4reszta
+                        <div style="text-align: right">Zwolej</div></div>
+                        
                        
                         
                         
