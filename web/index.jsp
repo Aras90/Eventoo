@@ -1,3 +1,5 @@
+<%@ include file="header.jsp" %>
+
 <%@page import="model.Comment"%>
 <%@page import="model.Picture"%>
 <%@page import="model.Rating"%>
@@ -29,7 +31,7 @@ out.println("Comments'" + listaComments.size() + "':\n");
 for(int i=0;i<listaComments.size();i++){
 out.println(listaComments.get(i).getId_Comment() + " " + listaComments.get(i).getCreatedAt() + " " + listaComments.get(i).getDescription()+"\n");
 }%>
-<%@ include file="header.jsp" %>
+
 		<div id="main">
                     <div style="font-size: 20px; color: white; margin-bottom:20px;">Uporządkowałem trochę kod. Poprawiłem header, dodałem footer, zmieniłem pozycję loginu do fejsa, żeby nie skakało. No i teraz strona główna to index.jsp (znajduje się w tym samym folderze, co reszta podstron).
                         <div style="text-align: right">Mular</div></div>
