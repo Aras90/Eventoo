@@ -13,14 +13,14 @@ public class Picture {
     private String Name;
     private String CreatedAt;
     private String Link;
-    private long Id_Event;
-    private long Id_Album;
-    private long Id_User;
+    private Event Id_Event;
+    private Album Id_Album;
+    private User Id_User;
     
     public Picture() {
     }
 
-    public Picture(long Id_Picture, String Name, String CreatedAt, String Link, long Id_Event, long Id_Album, long Id_User) {
+    public Picture(long Id_Picture, String Name, String CreatedAt, String Link, Event Id_Event, Album Id_Album, User Id_User) {
         this.Id_Picture = Id_Picture;
         this.Name = Name;
         this.CreatedAt = CreatedAt;
@@ -30,31 +30,31 @@ public class Picture {
         this.Id_User = Id_User;
     }
 
-    public long getId_Event() {
+    public Event getId_Event() {
         return Id_Event;
     }
 
-    public void setId_Event(long Id_Event) {
+    public void setId_Event(Event Id_Event) {
         this.Id_Event = Id_Event;
     }
 
-    public long getId_Album() {
+    public Album getId_Album() {
         return Id_Album;
     }
 
-    public void setId_Album(long Id_Album) {
+    public void setId_Album(Album Id_Album) {
         this.Id_Album = Id_Album;
     }
 
-    public long getId_User() {
+    public User getId_User() {
         return Id_User;
     }
 
-    public void setId_User(long Id_User) {
+    public void setId_User(User Id_User) {
         this.Id_User = Id_User;
     }
 
-
+   
 
     public long getId_Picture() {
         return Id_Picture;

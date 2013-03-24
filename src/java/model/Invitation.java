@@ -11,36 +11,39 @@ package model;
 public class Invitation {
      private long Id_Invitation;
      private String CreatedAt;
-     private long Id_Event;
-     private long Id_User;
+     private Event Id_Event;
+     private User Id_User;
+     
+     
     public Invitation() {
     }
 
-    public Invitation(long Id_Invitation, String CreatedAt, long Id_Event, long Id_User) {
+    public Invitation(long Id_Invitation, String CreatedAt, Event Id_Event, User Id_User) {
         this.Id_Invitation = Id_Invitation;
         this.CreatedAt = CreatedAt;
         this.Id_Event = Id_Event;
         this.Id_User = Id_User;
     }
 
-    public long getId_Event() {
+    public Event getId_Event() {
         return Id_Event;
     }
 
-    public void setId_Event(long Id_Event) {
+    public void setId_Event(Event Id_Event) {
         this.Id_Event = Id_Event;
     }
 
-    public long getId_User() {
+    public User getId_User() {
         return Id_User;
     }
 
-    public void setId_User(long Id_User) {
+    public void setId_User(User Id_User) {
         this.Id_User = Id_User;
     }
 
- 
+   
 
+    
     public long getId_Invitation() {
         return Id_Invitation;
     }

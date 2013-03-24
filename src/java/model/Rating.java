@@ -12,14 +12,14 @@ public class Rating {
      private long Id_Rating;
      private String CreatedAt;
      private int Value;
-     private long Id_Picture;
-     private long Id_User;
+     private Picture Id_Picture;
+     private User Id_User;
      
      
     public Rating() {
     }
 
-    public Rating(long Id_Rating, String CreatedAt, int Value, long Id_Picture, long Id_User) {
+    public Rating(long Id_Rating, String CreatedAt, int Value, Picture Id_Picture, User Id_User) {
         this.Id_Rating = Id_Rating;
         this.CreatedAt = CreatedAt;
         this.Value = Value;
@@ -27,21 +27,22 @@ public class Rating {
         this.Id_User = Id_User;
     }
 
-    public long getId_Picture() {
+    public Picture getId_Picture() {
         return Id_Picture;
     }
 
-    public void setId_Picture(long Id_Picture) {
+    public void setId_Picture(Picture Id_Picture) {
         this.Id_Picture = Id_Picture;
     }
 
-    public long getId_User() {
+    public User getId_User() {
         return Id_User;
     }
 
-    public void setId_User(long Id_User) {
+    public void setId_User(User Id_User) {
         this.Id_User = Id_User;
     }
+
 
    
 
